@@ -1,5 +1,5 @@
 # NutsAndBolts
-"Nuts and Bolts" is a where I play and make experiences with code. 
+"Nuts and Bolts" is where I play and make experiences with code. 
 It is a mixture of a playground and workshop, a place to test, built, fix, make mistakes, and have fun.
 
 It is meant to contain a bit of all those small and simple things and parts that combined make a whole and complex web project.
