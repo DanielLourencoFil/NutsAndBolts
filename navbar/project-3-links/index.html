@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 3 || Nav-Link-Section</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <nav>
+      <div class="container-center navbar">
+        <div class="logo">Nuts&amp;Bolts</div>
+        <div class="links-container">
+          <a data-link="0" href="#section-0">Home</a>
+          <a data-link="1" href="#section-1">Section 1</a>
+          <a data-link="2" href="#section-2">Section 2</a>
+          <a data-link="3" href="#section-3">Section 3</a>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+
+    <!-- hero section -->
+    <section class="hero-container" id="section-0" data-section="0">
+      <div class="container-center hero">
+        <h1 class="hero-title">hero section</h1>
+        <button class="btn-hero">
+          <a data-link="2" href="#section-2">Section 2</a>
+        </button>
+      </div>
+    </section>
+    <!-- end of hero section -->
+
+    <!-- main section -->
+    <main>
+
+      <section class="section-main" id="section-1" data-section="1">
+        <div class="container-center">
+          <h1 class="section-title">section 1</h1>
+        </div>
+      </section>
+
+      <section class="section-main" id="section-2" data-section="2">
+        <div class="container-center">
+          <h1 class="section-title">section 2</h1>
+        </div>
+      </section>
+
+      <section class="section-main" id="section-3" data-section="3">
+        <div class="container-center">
+          <h1 class="section-title">section 3</h1>
+        </div>
+      </section>
+
+    </main>
+<!-- end of main  -->
+
+<!-- footer -->
+    <footer class="container-center footer">
+      <p class="text-footer">All copyrights&copy; || Nuts&amp;Bolts</p>
+      <p class="text-footer" id="current-year">2021</p>
+    </footer>
+    <!-- end of footer -->
+
+    <script src="src/app.js" type="module"></script>
+  </body>
+</html>

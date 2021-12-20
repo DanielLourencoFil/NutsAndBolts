@@ -1,0 +1,112 @@
+:root {
+  --dark-color-transparent: rgba(44, 44, 44, 0.3);
+  --dark-color: rgba(44, 44, 44);
+  --letter-spacing: 0.1rem;
+  --box-shadow-1: 0 2px 2px var(--dark-color-transparent);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-center {
+  max-width: 1200px;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+/* NAV */
+nav {
+  position: fixed;
+  top: 0;
+  right: 1005;
+  background-color: rgb(244, 244, 255);
+  width: 100%;
+  box-shadow: var(--box-shadow-1);
+}
+.navbar {
+  display: flex;
+}
+.links-container {
+  margin: 0 auto;
+  display: flex;
+  letter-spacing: var(--letter-spacing);
+}
+.links-container a {
+  padding: 1.5rem 1rem;
+  transition: all 0.5s ease-in-out;
+}
+.logo {
+  color: var(--dark-color);
+  font-weight: bolder;
+  letter-spacing: var(--letter-spacing);
+  font-size: 1.25rem;
+  text-shadow: 2px 2px var(--dark-color-transparent);
+  align-self: center;
+}
+
+/* HERO */
+.hero-container {
+  background-color: rgba(42, 157, 144, 0.8);
+}
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn-hero {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.35rem;
+  border: transparent;
+  box-shadow: var(--box-shadow-1);
+  letter-spacing: var(--letter-spacing);
+}
+
+.hero-title {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing);
+}
+/* MAIN */
+.section-main {
+  height: 100vh;
+}
+.section-title {
+  text-transform: capitalize;
+  letter-spacing: var(--letter-spacing);
+  color: var(--dark-color);
+  font-weight: bold;
+  margin: 0;
+  padding-top: 2rem;
+}
+#section-1 {
+  background-color: rgba(97, 190, 244, 0.8);
+  padding-top: 3.5rem;
+}
+#section-2 {
+  background-color: rgba(231, 111, 81, 0.8);
+}
+#section-3 {
+  background-color: rgba(42, 157, 144, 0.8);
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
