@@ -1,6 +1,7 @@
 import { renderCurrentYear } from './currentYear.js';
 import { navLinkTracker } from './navLinkTracker.js';
-import {ScrollToLinks} from   './scrollToLinks.js'
+import {scrollToLinks} from   './scrollToLinks.js';
+import {backToTopBtn} from './back-to-top-btn.js'
 
 
 //update year
@@ -12,10 +13,12 @@ navLinkTracker()
 
 window.addEventListener('scroll', function (e) {
   navLinkTracker()
+  backToTopBtn()
 });
 
 //SCROLL to links
-ScrollToLinks()
+scrollToLinks()
+
 
 
 

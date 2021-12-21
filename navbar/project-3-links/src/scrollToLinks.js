@@ -1,4 +1,4 @@
-export function ScrollToLinks(){
+export function scrollToLinks(){
 
     const sectionLinks = [...document.querySelectorAll('[data-link]')];
 

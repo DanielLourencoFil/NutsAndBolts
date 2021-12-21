@@ -79,6 +79,37 @@ nav {
   text-transform: uppercase;
   letter-spacing: var(--letter-spacing);
 }
+/* BACK-TO-TOP BTN */
+.btn-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  transform: translate(-100%, -100%);
+  background-color: transparent;
+  border: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.btn-top i {
+  font-size: 2rem;
+  color: rgba(190, 0, 0, 0.75);
+  animation: pulse-btn 1s infinite linear;
+}
+.show-btn {
+  opacity: 1;
+}
+@keyframes pulse-btn {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 /* MAIN */
 .section-main {
   height: 100vh;
