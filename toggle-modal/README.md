@@ -1,3 +1,5 @@
+![Logo of the project](https://github.com/DanielLourencoFil/NutsAndBolts/blob/main/toggle-modal/README-files/CodeErgoSum.png)
+
 ## Toggle modal class
 
 This is a project ib which I'm making a incursion on JavaScript classes and reusable code.
