@@ -1,0 +1,124 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+h1,
+h2 {
+	margin: 0;
+	padding: 0;
+}
+.arrow-btn {
+	position: absolute;
+	padding: 2rem;
+	font-size: 3rem;
+	color: crimson;
+	cursor: pointer;
+}
+
+/****** HERO AND BTNS ******/
+.hero {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	width: 100vw;
+	height: 100vh;
+	background-color: bisque;
+}
+.instructions {
+	font-size: 1.25rem;
+	text-transform: uppercase;
+}
+/*** btns ***/
+.open-arrow-up,
+.open-arrow-down {
+	left: 50%;
+	transform: translateX(-50%);
+}
+.open-arrow-up {
+	bottom: 0;
+}
+.open-arrow-down {
+	top: 0;
+}
+.open-arrow-right,
+.open-arrow-left {
+	top: 50%;
+	transform: translateY(-50%);
+}
+.open-arrow-right {
+	left: 0;
+}
+.open-arrow-left {
+	right: 0;
+}
+
+/****** MODALS AND BTNS ******/
+.modal-up {
+	width: 100vw;
+	height: 50vh;
+	display: none;
+	background-color: lightblue;
+	position: absolute;
+	top: -100vh;
+	left: 0;
+	transition: all 1s ease-in-out;
+}
+.modal-down {
+	width: 100vw;
+	height: 50vh;
+	display: none;
+	background-color: cadetblue;
+	position: absolute;
+	bottom: -100vh;
+	left: 0;
+	transition: all 1s ease-in-out;
+}
+.modal-right {
+	width: 50vw;
+	height: 100vh;
+	display: none;
+	background-color: peru;
+	position: absolute;
+	top: 0;
+	right: -100vw;
+	transition: all 1s ease-in-out;
+}
+.modal-left {
+	width: 50vw;
+	height: 100vh;
+	display: none;
+	background-color: lightcoral;
+	position: absolute;
+	top: 0;
+	left: -100vw;
+	transition: all 1s ease-in-out;
+}
+
+/*** btns ***/
+.close-arrow-up,
+.close-arrow-down {
+	left: 50%;
+	transform: translateX(-50%);
+}
+.close-arrow-up {
+	bottom: 0;
+}
+.close-arrow-down {
+	top: 0;
+}
+.close-arrow-right,
+.close-arrow-left {
+	top: 50%;
+	transform: translateY(-50%);
+}
+.close-arrow-right {
+	left: 0;
+}
+.close-arrow-left {
+	right: 0;
+}
