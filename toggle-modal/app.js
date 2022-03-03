@@ -6,7 +6,7 @@ class ToggleModal{
         
         //default values
         this.start = "left"; // possible values : top || down || right || left
-        this.displayOn = "block"; 
+        this.displayOn = "block"; // possible values : block || flex || grid || etc
         this.displayOff = "none";
         this.showOn = '0';
         this.showOff = '-100';
