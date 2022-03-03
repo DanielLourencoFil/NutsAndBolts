@@ -1,8 +1,8 @@
 class ToggleModal{
     constructor(modal, openBtn, closeBtn){
-        this.modal = document.querySelector(`.${modal}`);
-        this.modalOpenBtn = document.querySelector(`.${openBtn}`);
-        this.modalCloseBtn = document.querySelector(`.${closeBtn}`);
+        this.modal = document.querySelector(`${modal}`);
+        this.modalOpenBtn = document.querySelector(`${openBtn}`);
+        this.modalCloseBtn = document.querySelector(`${closeBtn}`);
         
         //default values
         this.start = "left"; // possible values : top || down || right || left
@@ -43,15 +43,15 @@ class ToggleModal{
     }
 }
 
-const modalUp = new ToggleModal('modal-up', 'open-arrow-down', 'close-arrow-up')
+const modalUp = new ToggleModal('.modal-up', '.open-arrow-down', '.close-arrow-up')
 modalUp.start = 'top';
 
-const modalDown = new ToggleModal('modal-down', 'open-arrow-up', 'close-arrow-down')
+const modalDown = new ToggleModal('.modal-down', '.open-arrow-up', '.close-arrow-down')
 modalDown.start = 'bottom';
 
-const modalRight = new ToggleModal('modal-right', 'open-arrow-left', 'close-arrow-right')
+const modalRight = new ToggleModal('.modal-right', '.open-arrow-left', '.close-arrow-right')
 modalRight.start = 'right';
 
-const modalLeft = new ToggleModal('modal-left', 'open-arrow-right', 'close-arrow-left')
+const modalLeft = new ToggleModal('.modal-left', '.open-arrow-right', '.close-arrow-left')
 modalLeft.start = 'left';
 
