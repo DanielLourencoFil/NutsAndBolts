@@ -8,7 +8,7 @@ I coded a class that turn open and close a modal esier and faster.
 
 ## Worth mentioning
 
-    - It permits to add ina very straithfoward way toggle funcionality to open and close modals.
+    - It permits to add in a very straightforward way toggle funcionality to open and close modals.
     - It is suitable for a wide range of modal configurations (give it a try to find out!).
     - It permits set ccs "display = none;" for modal and still make possible smooth transitions.
     - By doing so, it avoids odd behavior of modal divs when resizing screen width (modal has its transition effect in action).
