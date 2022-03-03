@@ -9,7 +9,8 @@ h2 {
 	margin: 0;
 	padding: 0;
 }
-.arrow-btn {
+.arrow-btn,
+.scale-btn {
 	position: absolute;
 	padding: 2rem;
 	font-size: 3rem;
@@ -21,17 +22,24 @@ h2 {
 .hero {
 	position: relative;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-	gap: 0.5rem;
+	justify-content: center;
 	width: 100vw;
 	height: 100vh;
 	background-color: bisque;
 }
 .instructions {
+	margin-bottom: 200px;
+	text-align: center;
+}
+.instructions h1 {
 	font-size: 1.25rem;
 	text-transform: uppercase;
+	margin-bottom: 0.5rem;
+}
+.instructions h2 {
+	font-size: 1.25rem;
+	/* text-transform: uppercase; */
 }
 /*** btns ***/
 .open-arrow-up,
@@ -58,6 +66,7 @@ h2 {
 }
 
 /****** MODALS AND BTNS ******/
+
 .modal-up {
 	width: 100vw;
 	height: 50vh;
@@ -121,4 +130,35 @@ h2 {
 }
 .close-arrow-left {
 	right: 0;
+}
+
+/*** MODAL SCALE ***/
+.modal-scale {
+	position: absolute;
+	display: none;
+
+	width: 50vw;
+	height: 50vh;
+
+	top: 50%;
+	left: 50%;
+
+	transform: translate(-50%, -50%) scale(0);
+
+	background-color: lightblue;
+	position: absolute;
+
+	z-index: 1;
+	transition: all 1s ease-in-out;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.scale-btn {
+	padding: 2rem;
+	font-size: 3rem;
+	color: crimson;
+	cursor: pointer;
 }
