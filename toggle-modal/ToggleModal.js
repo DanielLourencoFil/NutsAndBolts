@@ -13,7 +13,6 @@ class ToggleModal{
 
         this.open()
         this.close()
-
     }
     open = ()=>{
         this.modalOpenBtn.addEventListener('click', ()=>{
@@ -43,6 +42,9 @@ class ToggleModal{
     }
 }
 
+
+
+//************ MODALS FOR CURRENT DEMONSTRATION *************/
 const modalUp = new ToggleModal('.modal-up', '.open-arrow-down', '.close-arrow-up')
 modalUp.start = 'top';
 
