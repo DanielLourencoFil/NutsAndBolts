@@ -65,7 +65,7 @@ class ToggleModal{
 
 //************ MODALS FOR CURRENT DEMONSTRATION *************/
 
-const modalUp = new ToggleModal('.modal-up', '.open-arrow-up', '.close-arrow-up')
+const modalUp = new ToggleModal('.modal-up', '.open-arrow-down', '.close-arrow-up')
 modalUp.start = 'top';
 
 const modalDown = new ToggleModal('.modal-down', '.open-arrow-up', '.close-arrow-down')
