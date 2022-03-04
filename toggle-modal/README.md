@@ -2,19 +2,19 @@
 
 ## Toggle modal class
 
-This is a project ib which I'm making a incursion on JavaScript classes and reusable code.
+This is a project in which I'm making an incursion on JavaScript classes and reusable code.
 
-I coded a class that turn open and close a modal esier and faster.
+I coded a class that turn to open and close a modal easier and faster.
 
 ## Worth mentioning
 
-    - It permits to add in a very straightforward way toggle funcionality to open and close modals.
+    - It permits to add in a very straightforward way toggle functionality to open and close modals.
     - It is suitable for a wide range of modal configurations (give it a try to find out!).
-    - It has two diferrent setups for modal transition: SLIDE and POP-UP.
-    - It permits set ccs "display = none;" for modal and still make possible smooth transitions.
+    - It has two different setups for modal transition: SLIDE and POP-UP.
+    - It permits set CSS "display = none;" for modal and still makes possible smooth transitions.
     - By doing so, it avoids odd behavior of modal divs when resizing screen width (modal has its transition effect in action).
-    - Also avoid odd behavior when using mobiles, on cases user try to snap screen on X axis.
-    - (side note: During reaserch I found that those problems should be avoided using css property "overflow-x = hidden" on body, but some how it didn't worked as expected).
+    - Also avoid odd behavior when using mobiles, on cases users try to snap screen on X axis.
+    - (side note: During research I found that those problems should be avoided using css property "overflow-x = hidden" on the body, but some how it didn't work as expected).
 
 ## How to use it
 
@@ -50,7 +50,7 @@ I coded a class that turn open and close a modal esier and faster.
 
 ### (6) JS configuration for pop-up effect - 2º STEP
 
-    - Inform elements css classes or ids and pass a forth argument with modal action type: "scale".
+    - Inform elements css classes or ids and pass a fourth argument with modal action type: "scale".
 
 ![New Card Screen](https://github.com/DanielLourencoFil/NutsAndBolts/blob/main/toggle-modal/README-files/js%20-%20toggleModal-scale-2.png)
 
@@ -62,7 +62,7 @@ I coded a class that turn open and close a modal esier and faster.
 
 ### (8) feel free to clone it and have fun!
 
-### (9) Sugestions for improvments and bug finding are very wellcomed!
+### (9) Sugestions for improvements and bugs finding are very wellcomed!
 
 ## Author
 
