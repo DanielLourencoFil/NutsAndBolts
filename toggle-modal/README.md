@@ -28,7 +28,7 @@ I coded a class that turn to open and close a modal easier and faster.
 
 ![New Card Screen](https://github.com/DanielLourencoFil/NutsAndBolts/blob/main/toggle-modal/README-files/css-styles.png)
 
-### (3) the elements created at step (1) are selected by their css class or id (it must be passed as a argument when creatiang new Class, i.e., new ToggleModal('#modal', '.open-btn', '#close-btn)).
+### (3) the elements created at step (1) are selected by their css class or id (it must be passed as a argument when creating new Class, i.e., new ToggleModal('#modal', '.open-btn', '#close-btn)).
 
     - Note: If CSS display value intended for the modal element is different of "block" (default), it must be set manually, i.e., modal.displayOn = "flex". It is necessary for the modal display set in css is "none".
 
@@ -36,7 +36,7 @@ I coded a class that turn to open and close a modal easier and faster.
 
 ### (4) create new ToggleModal and set start point for sliding action, i.e, newModal.start = 'top';
 
-![New Card Screen](https://github.com/DanielLourencoFil/NutsAndBolts/blob/main/toggle-modal/README-files/js%20-%20toggleModal-start.png)
+![New Card Screen](https://github.com/DanielLourencoFil/NutsAndBolts/blob/main/toggle-modal/README-files/js%20-%20toggleModal-slide-2.png)
 
 ## Pop-up effect
 
